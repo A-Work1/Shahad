@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Cairo', sans-serif;
+    background-image:linear-gradient( rgba(255, 255, 255, 0.267) , rgba(255, 255, 255, 0.267)) , url(file/asa\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/***************************************/
+.home{
+    overflow: hidden;
+    background-image:linear-gradient( rgba(255, 255, 255, 0.87) , rgba(255, 255, 255, 0.87)) , url(file/sadfdas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.671);
+    width: 50%;
+    text-align: center;
+}
+.home img{
+    width: 40%;
+}
+.home h1{
+    color: #CE303B;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.486);
+}
+.home p{
+    font-size: 18px;
+    font-weight: 800;
+}
+.home h3{
+    color: #CE303B;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.486);
+}
+#email {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.671);
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+}
+#button{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #EED2AD;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.671);
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    transition: 0.4s;
+}
+#button:hover{
+    color: #CE303B;
+    background-color: white;
+    cursor: pointer;
+}
+@media (max-width:744px){
+    .home{
+        width: 95%;
+    }
+}
+@media (max-width:582px){
+    .home p{
+        font-size: 15px;
+    }
+    .home h3{
+        font-size: 15px;
+    }
+    #email{
+        width: 80%;
+    }
+    #button{
+        width: 60%;
+    }
+}
+@media (max-width:458px){
+    .home h1{
+        font-size: 20px;
+    }
+    .home p{
+        font-size: 13px;
+    }
+    .home h3{
+        font-size: 12px;
+    }
+    #email{
+        width: 80%;
+    }
+    #button{
+        width: 60%;
+    }
+    .home img{
+        width: 60%;
+    }
+}
+@media (max-width:414px){
+    .home p{
+        font-size: 11px;
+    }
+        .home h3{
+        font-size: 11px;
+    }
+    #email{
+        width: 80%;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #button{
+        width: 60%;
+        font-size: 14px;
+    }
+    .home img{
+        width: 60%;
+    }
+}
